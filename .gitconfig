@@ -93,7 +93,7 @@
 	cma = commit -am
 	ca = commit --amend
 	c = checkout
-  cc = !git checkout $(git branch | fzf)
+    cc = !git checkout $(git branch | fzf)
 	co =  checkout -b
 	b = branch
 	diff = diff --word-diff
